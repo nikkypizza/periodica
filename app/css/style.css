@@ -1,0 +1,58 @@
+html {
+  background: #F9F8F9; }
+
+body {
+  margin: 0; }
+
+h1 {
+  margin-bottom: 0; }
+
+form {
+  display: flex;
+  width: 350px; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 650px; }
+
+svg {
+  margin: 30px 0;
+  transition: 1s linear;
+  border: 2px solid #E3E2E3;
+  background-color: white;
+  cursor: move; }
+  svg image {
+    background-color: #F9F8F9; }
+
+button {
+  border: 1px solid #79482D;
+  outline: none;
+  background-color: transparent;
+  color: #79482D;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font: small-caps 13.33333px sans-serif; }
+  button:hover, button:focus {
+    transition: 0.15s linear;
+    background: #79482D;
+    color: white; }
+  button:active {
+    transition: none;
+    opacity: 0.6; }
+
+output {
+  font: small-caps 16.66667px sans-serif; }
+
+.TextInput {
+  width: 100%; }
+
+.RangeInput {
+  width: 350px;
+  margin: 15px 0 0;
+  cursor: -webkit-grab;
+  cursor: grab; }

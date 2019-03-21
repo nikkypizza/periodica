@@ -1,0 +1,11 @@
+@import './global/global.scss';
+
+.TextInput {
+  width: 100%;
+}
+
+.RangeInput {
+  width: 350px;
+  margin: 15px 0 0;
+  cursor: grab;
+}

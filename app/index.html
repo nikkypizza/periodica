@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2750A8">
+  <meta name="description" content="Фотокниги, открытки, снимки, календари">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>testMe.periodica.press</title>
+</head>
+
+<body>
+  <section>
+    <h1>Trim me up</h1>
+    <svg width="584" height="584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <clipPath id="image-clip-path">
+          <rect x="178" y="178" width="228" height="228"></rect>
+        </clipPath>
+      </defs>
+      <image clip-path="url(#image-clip-path)" id="image" x="178" y="178" width="228" height="228" xlink:href="./img/placeholder.png" preserveAspectRatio="xMidYMid slice"></image>
+    </svg>
+    <form>
+      <input class="TextInput" type="text" required pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)" name="img-link" placeholder="Ссылка в формате http://address.ru" title="Вставьте ссылку на ваше фото в формате http://address.ru">
+      <button type="submit" title="Добавить фото">OK</button>
+    </form>
+    <button type="button" class="RandomLinkBtn">выбрать случайное фото</button>
+    <button type="button" class='ResetBtn'>очистить историю</button>
+    <input class="RangeInput" type="range" value="1" min="1" max="3" step="0.01" id="rangeInput" title="Выберите уровень приближения фотографии">
+    <output for="rangeInput">приблизить</output>
+  </section>
+  <script src="js/page.js"></script>
+</body>
+
+</html>

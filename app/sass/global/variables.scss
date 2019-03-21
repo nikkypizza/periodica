@@ -1,0 +1,9 @@
+// Color variables
+$color-contrast: #79482D;
+$color-page-bg: #F9F8F9;
+$color-svg-border:#E3E2E3;
+
+// Mixins
+@mixin font-basic($size) {
+  font: small-caps $size/1.2 sans-serif;
+}
